@@ -8,9 +8,9 @@ def binary_rank_search(mylist, number):
 
     if mylist[middle] == number:
         return middle+1
-    elif uzunluk==1 and number>mylist[middle]:
+    elif length==1 and number>mylist[middle]:
         return middle+1
-    elif uzunluk==1 and number<mylist[middle]:
+    elif length==1 and number<mylist[middle]:
         return middle+2
 
     elif mylist[middle]> number:
