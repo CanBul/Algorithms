@@ -1,2 +1,2 @@
 # Algorithms
-- Binary Rank Search
+- Binary Rank Search.
